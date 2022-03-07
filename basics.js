@@ -1,5 +1,4 @@
 //Ways of defining variables. Can also use var. null = defined variable that has no value 
-// Math Operators : **: power of, %: remainder, NaN: Not a Number
 let num = 50;
 const num1 = 200;
 
@@ -51,7 +50,8 @@ while(j<names.length){
 }
 
 // if Statements    note: Only one statement will run. 
-// Logical operators OR: || , AND: &&, NOT : !
+// Logical operators OR: || , AND: &&, NOT : ! 
+
 if(names.length>0){
     console.log("True");
 }else if(names.length>1){ 
@@ -111,6 +111,7 @@ welcome();
 specificWelcome("Mert");
 specificWelcome();
 
+// Math Operators : **: power of, %: remainder, NaN: Not a Number
 function square(numberToSquare){
     console.log(numberToSquare**2);
     return(numberToSquare**2);  
