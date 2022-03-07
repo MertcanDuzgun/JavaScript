@@ -99,9 +99,9 @@ switch(testResults[3]){
 }
 
 // Functions
-function welcome(){
-    alert("Welcome to Learning Java Script"); // Pop Up
-}
+/*function welcome(){
+    alert("Welcome to Learning Java Script"); // Creats a pop that says "Welcome to Learning Java Script" to enable this delete / * in 102nd line and * / in 104th line
+}*/
 
 function specificWelcome(customer = "Mertcan"){ // Parameter is predefined so when it is called without using paramters predefined value will be used.
     console.log(`Welcome to Learning Java Script ${customer}`)
