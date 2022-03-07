@@ -117,7 +117,7 @@ function square(numberToSquare){
     return(numberToSquare**2);  
 }
 
-const calculateSquare = (calcSquare) => calcSquare**2;   // returns values after the arrow. Can remove parenthesis if using only one parameter.
+const calculateSquare = (calcSquare) => calcSquare**2;   // returns values after the "=>". Can remove parenthesis if using only one parameter.
 
 const calculateTotal = (items, discount) =>{
     let total = 0;
@@ -130,7 +130,7 @@ const calculateTotal = (items, discount) =>{
 const num2 = square(12);
 const num3 = calculateSquare(15);
 console.log(num3);
-console.log(calculateTotal([20,50,130,240],0,35));
+console.log(calculateTotal([20,50,130,240],0.35));
 
 // Foreach and Callback Function
 let numbers =[35, 64, 5, 55, 7, 34];
