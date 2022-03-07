@@ -14,7 +14,7 @@ console.log(fullname.toUpperCase());
 console.log(fullname.toLowerCase());
 console.log(index);
 
-//String Methods
+//Some String Method Examples
 let email = 'mertcan.filik@bil.omu.edu.tr';
 let emailLastIndex = email.lastIndexOf('e'); // Finds the last 'e's index
 let emailSlice = email.slice(1,7); // results in a slice that is defined in the parenthesis, eg. from 1st to 7th of email
