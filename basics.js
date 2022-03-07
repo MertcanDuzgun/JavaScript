@@ -77,7 +77,7 @@ for(let i=0; i<testResults.length;i++){
     }
 }
 
-// switch case , runs the stated case if the case is not stated then runs default
+// switch case , runs the stated case, if the case is not stated then runs default
 switch(testResults[3]){
     case "AA":
         console.log("You have passed with a grade of AA.");
